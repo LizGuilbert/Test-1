@@ -5641,7 +5641,7 @@ GameObject:
   - component: {fileID: 1535492844}
   - component: {fileID: 1535492843}
   m_Layer: 0
-  m_Name: Cube (1)
+  m_Name: Gold
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5660,6 +5660,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gold: 0
+  scoreText: {fileID: 1121989927}
 --- !u!65 &1535492844
 BoxCollider:
   m_ObjectHideFlags: 0

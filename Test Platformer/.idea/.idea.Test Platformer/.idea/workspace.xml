@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e26c8d72-d5cf-41be-bd97-ca6f792c32d3" name="Changes" comment="" />
+    <list default="true" id="e26c8d72-d5cf-41be-bd97-ca6f792c32d3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Test Platformer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Test Platformer/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GlodSpawn.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GlodSpawn.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Test 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Test 1.unity" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,7 +68,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1644834120384</updated>
-      <workItem from="1644834123707" duration="2487000" />
+      <workItem from="1644834123707" duration="2609000" />
+      <workItem from="1644837331606" duration="295000" />
     </task>
     <servers />
   </component>
@@ -83,6 +88,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
