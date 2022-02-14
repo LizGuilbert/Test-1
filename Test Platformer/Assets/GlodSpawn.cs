@@ -7,6 +7,7 @@ public class GlodSpawn : MonoBehaviour
 {
     public int gold;
     public TextMeshProUGUI scoreText;
+    public float timeLeft;
     void Start()
     {
         transform.position = new Vector3(Random.Range(-4.0f, 5.0f), transform.position.y,Random.Range(-6.5f,2.6f));
@@ -29,5 +30,20 @@ public class GlodSpawn : MonoBehaviour
     void RefreshText()
     {
         scoreText.text = "Score : " + gold;
+    }
+    
+    
+    void Update()
+    {
+        timeLeft -= Time.deltaTime;
+        if ( timeLeft < 0 )
+        {
+            GameOver();
+        }
+    }
+
+    void GameOver()
+    {
+        Time.timeScale = 0;
     }
 }
