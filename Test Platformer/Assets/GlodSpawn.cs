@@ -7,6 +7,7 @@ public class GlodSpawn : MonoBehaviour
 {
     public int gold;
     public TextMeshProUGUI scoreText;
+    public TextMeshProUGUI timerText;
     public float timeLeft;
     void Start()
     {
@@ -30,11 +31,14 @@ public class GlodSpawn : MonoBehaviour
     void RefreshText()
     {
         scoreText.text = "Score : " + gold;
+        timerText.text = "Time : " + timeLeft;
     }
+    
     
     
     void Update()
     {
+        RefreshText();
         timeLeft -= Time.deltaTime;
         if ( timeLeft < 0 )
         {

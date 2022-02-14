@@ -5796,6 +5796,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gold: 0
   scoreText: {fileID: 1121989927}
+  timerText: {fileID: 1077549481}
   timeLeft: 20
 --- !u!65 &1535492844
 BoxCollider:
